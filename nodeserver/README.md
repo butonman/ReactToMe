@@ -1,8 +1,10 @@
-## A Simple Server with Node.js Express
+##  Node.js Express Server that communicates with python flask server
 
-This is a simple skeleton Express server project that works on any of the [balena][balena-link] supported devices.
+I modified the simple skeleton Express server project that works on any of the [balena][balena-link] supported devices.
 
-This project serves up `"Hello World!"` on port `:80` of your balena device.
+This project serves up a webpage  on port `:80` of your balena device.
+
+[Click Here to access the my device and leave me a message or buzz it][weblink]
 
 To get this project up and running, you will need to signup for a balena account [here][signup-page] and set up an application and device. You'll find full details in our [Getting Started tutorial][gettingStarted-link]. 
 
@@ -15,3 +17,4 @@ To give your device a public URL, access the device page on the [balenaCloud das
 [gettingStarted-link]:http://balena.io/docs/learn/getting-started/
 [balena-cli]:https://www.balena.io/docs/reference/cli/
 [balena-dashboard]:https://dashboard.balena-cloud.com/
+[weblink]:https://3472612e1eb07adcd44425431320f17f.balena-devices.com/
