@@ -1,0 +1,18 @@
+version: '2'
+services:
+  nodeserver:
+    build: ./nodeserver
+    restart: always    
+    privileged: true
+    ports:
+      - "80:80"      
+
+         
+  rainbowhat:
+    build: ./rainbowhat
+    restart: always 
+    privileged: true
+    ports:
+        - "3000:3000"
+
+    
